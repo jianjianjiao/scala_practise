@@ -44,7 +44,7 @@
         </executions>
         <configuration>
           <scalaVersion>${scala.version}</scalaVersion>
-         <!-- <recompileMode>incremental</recompileMode> -->
+         <recompileMode>incremental</recompileMode>
         </configuration>
       </plugin>
       <plugin>

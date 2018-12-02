@@ -11,6 +11,7 @@ object App {
     app match {
       case "MultiplicationTable" => MultiplicationTable.run
       case "Rational" => Rational.run
+      case "Search" => Search.run
       case _ => println("huh?")
     }
   }
