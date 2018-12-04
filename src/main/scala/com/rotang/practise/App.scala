@@ -12,6 +12,7 @@ object App {
       case "MultiplicationTable" => MultiplicationTable.run
       case "Rational" => Rational.run
       case "Search" => Search.run
+      case "FileMatcher" => FileMatcher.run
       case _ => println("huh?")
     }
   }
